@@ -1,0 +1,28 @@
+.trainer-overview-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.trainer-overview-header {
+  background-color: darkred;
+  border-bottom: #222224 5px solid;
+  color: #f0f0f0;
+}
+
+.poke-ball-container {
+  display: flex;
+  justify-content: center;
+  background-color: #222224;
+  border-bottom: #222224 5px solid;
+  margin-bottom: 5rem;
+}
+
+.poke-ball {
+  position: relative;
+  width: 5rem;
+  height: 2.5rem;
+  top: -5px;
+  background-color: #f0f0f0;
+  border: 5px solid #222224;
+  border-radius: 0 0 10rem 10rem;
+}
