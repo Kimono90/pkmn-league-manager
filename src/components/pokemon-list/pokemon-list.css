@@ -1,0 +1,16 @@
+.pokemon-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pokemon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border: 1px lightgray solid;
+}
+
+.pokemon-item span {
+    width: auto;
+}

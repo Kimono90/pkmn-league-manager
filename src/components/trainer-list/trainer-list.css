@@ -2,3 +2,36 @@
     display: flex;
     margin: 0 2.5rem 0 2.5rem;
 }
+
+.trainer-item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.trainer-details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.trainer-item:hover {
+    background-color: darkgray;
+}
+
+.trainer-item span {
+    margin: 1rem;
+    width: 20%;
+    text-align: left;
+}
+
+.edit-button {
+    display: flex;
+    justify-content: end;
+}
+
