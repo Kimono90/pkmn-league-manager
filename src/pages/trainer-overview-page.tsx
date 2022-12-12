@@ -44,12 +44,13 @@ const testTrainer = [{
 }]
 
 export function TrainerOverviewPage(): ReactElement {
-  const [trainers, setTrainers] = useState<Trainer[]>(testTrainer);
+  const [trainers, setTrainers] = useState<Trainer[]>([]);
   const [pokemon, setPokemon] = useState();
 
   console.log(pokemon);
 
   useEffect(() => {
+    setTrainers(testTrainer)
     getAllPokemon().then((result) => setPokemon(result))
   }, [])
 
